@@ -1,0 +1,231 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	src/color.cpp	/^Color Color::BLACK = Color(0, 0, 0);$/;"	m	class:easee::Color	file:
+BLACK	src/color.h	/^    static Color BLACK;$/;"	m	class:easee::Color
+BLUE	src/color.cpp	/^Color Color::BLUE = Color(0, 0, 255);$/;"	m	class:easee::Color	file:
+BLUE	src/color.h	/^    static Color BLUE;$/;"	m	class:easee::Color
+Card	src/card.cpp	/^Card::Card(const Rect& rect, const Color& color)$/;"	f	class:easee::Card
+Card	src/card.h	/^class Card : public Widget {$/;"	c	namespace:easee
+Color	src/color.cpp	/^Color::Color(int r, int g, int b, float a) : d_r(r), d_g(g), d_b(b), d_a(a) {}$/;"	f	class:easee::Color
+Color	src/color.h	/^class Color {$/;"	c	namespace:easee
+DARK_GREEN	src/color.cpp	/^Color Color::DARK_GREEN = Color(0, 120, 0);$/;"	m	class:easee::Color	file:
+DARK_GREEN	src/color.h	/^    static Color DARK_GREEN;$/;"	m	class:easee::Color
+Display	src/display.cpp	/^Display::Display() {}$/;"	f	class:easee::Display
+Display	src/display.h	/^class Display {$/;"	c	namespace:easee
+EASEE_CARD_H	src/card.h	/^#define EASEE_CARD_H$/;"	d
+EASEE_COLOR_H	src/color.h	/^#define EASEE_COLOR_H$/;"	d
+EASEE_DISPLAY_H	src/display.h	/^#define EASEE_DISPLAY_H$/;"	d
+EASEE_DISPLAY_TYPES_H	src/display_types.h	/^#define EASEE_DISPLAY_TYPES_H$/;"	d
+EASEE_EASEE_CELL_H	src/easee_cell.h	/^#define EASEE_EASEE_CELL_H$/;"	d
+EASEE_LIGHT_H	src/light.h	/^#define EASEE_LIGHT_H$/;"	d
+EASEE_MEMORY_H	src/memory.h	/^#define EASEE_MEMORY_H$/;"	d
+EASEE_ONE_INCH_DISPLAY_H	src/one_inch_display.h	/^#define EASEE_ONE_INCH_DISPLAY_H$/;"	d
+EASEE_PROVIDER_H	src/provider.h	/^#define EASEE_PROVIDER_H$/;"	d
+EASEE_RECTANGLE_H	src/rectangle.h	/^#define EASEE_RECTANGLE_H$/;"	d
+EASEE_SENSOR_CARD_H	src/sensor_card.h	/^#define EASEE_SENSOR_CARD_H$/;"	d
+EASEE_TEMPERATURE_H	src/temperature_humidity.h	/^#define EASEE_TEMPERATURE_H$/;"	d
+EASEE_TEXTSTYLE_H	src/textstyle.h	/^#define EASEE_TEXTSTYLE_H$/;"	d
+EASEE_TEXT_H	src/text.h	/^#define EASEE_TEXT_H$/;"	d
+EASEE_WIDGET_H	src/widget.h	/^#define EASEE_WIDGET_H$/;"	d
+EASEE_WIFI_H	src/wifimodule.h	/^#define EASEE_WIFI_H$/;"	d
+EaseeCell	src/easee_cell.cpp	/^EaseeCell::EaseeCell()$/;"	f	class:easee::EaseeCell
+EaseeCell	src/easee_cell.h	/^class EaseeCell {$/;"	c	namespace:easee
+GREEN	src/color.cpp	/^Color Color::GREEN = Color(0, 255, 0);$/;"	m	class:easee::Color	file:
+GREEN	src/color.h	/^    static Color GREEN;$/;"	m	class:easee::Color
+HumidityData	src/temperature_humidity.h	/^    struct HumidityData {$/;"	s	class:easee::TemperatureHumidity
+Light	src/light.cpp	/^Light::Light(int port) : d_port(port) {}$/;"	f	class:easee::Light
+Light	src/light.h	/^class Light {$/;"	c	namespace:easee
+LightData	src/light.h	/^    struct LightData {$/;"	s	class:easee::Light
+MAGENTA	src/color.cpp	/^Color Color::MAGENTA = Color(255, 0, 255);$/;"	m	class:easee::Color	file:
+MAGENTA	src/color.h	/^    static Color MAGENTA;$/;"	m	class:easee::Color
+Memory	src/memory.cpp	/^Memory::Memory() {}$/;"	f	class:easee::Memory
+Memory	src/memory.h	/^class Memory {$/;"	c	namespace:easee
+MemoryData	src/memory.h	/^    struct MemoryData {$/;"	s	class:easee::Memory
+NORMAL	src/textstyle.cpp	/^TextStyle TextStyle::NORMAL = TextStyle();$/;"	m	class:easee::TextStyle	file:
+NORMAL	src/textstyle.h	/^    static TextStyle NORMAL;$/;"	m	class:easee::TextStyle
+ORANGE	src/color.cpp	/^Color Color::ORANGE = Color(255, 140, 0);$/;"	m	class:easee::Color	file:
+ORANGE	src/color.h	/^    static Color ORANGE;$/;"	m	class:easee::Color
+OneInchDisplay	src/one_inch_display.cpp	/^OneInchDisplay::OneInchDisplay() : d_display(5, 2, 4) {}$/;"	f	class:easee::OneInchDisplay
+OneInchDisplay	src/one_inch_display.h	/^class OneInchDisplay : public Display {$/;"	c	namespace:easee
+PURPLE	src/color.cpp	/^Color Color::PURPLE = Color(128, 0, 128);$/;"	m	class:easee::Color	file:
+PURPLE	src/color.h	/^    static Color PURPLE;$/;"	m	class:easee::Color
+Properties	src/display_types.h	/^    Properties(const Color& color = Color::BLACK, int padding = 5,$/;"	f	struct:easee::Properties
+Properties	src/display_types.h	/^struct Properties {$/;"	s	namespace:easee
+Provider	src/provider.h	/^    Provider<T>() : d_data() {}$/;"	f	class:easee::Provider
+Provider	src/provider.h	/^class Provider {$/;"	c	namespace:easee
+RED	src/color.cpp	/^Color Color::RED = Color(255, 0, 0);$/;"	m	class:easee::Color	file:
+RED	src/color.h	/^    static Color RED;$/;"	m	class:easee::Color
+Rect	src/display_types.h	/^    Rect(int sz) : d_x(sz), d_y(sz), d_w(sz), d_h(sz) {}$/;"	f	struct:easee::Rect
+Rect	src/display_types.h	/^    Rect(int x, int y, int w, int h) : d_x(x), d_y(y), d_w(w), d_h(h) {}$/;"	f	struct:easee::Rect
+Rect	src/display_types.h	/^struct Rect {$/;"	s	namespace:easee
+Rectangle	src/rectangle.cpp	/^Rectangle::Rectangle(const Rect& rect, const Properties& properties)$/;"	f	class:easee::Rectangle
+Rectangle	src/rectangle.h	/^class Rectangle : public Widget {$/;"	c	namespace:easee
+SensorCard	src/sensor_card.h	/^SensorCard<T>::SensorCard(const Rect& rect, const Color& color,$/;"	f	class:easee::SensorCard
+SensorCard	src/sensor_card.h	/^class SensorCard : public Card {$/;"	c	namespace:easee
+TemperatureData	src/temperature_humidity.h	/^    struct TemperatureData {$/;"	s	class:easee::TemperatureHumidity
+TemperatureHumidity	src/temperature_humidity.cpp	/^TemperatureHumidity::TemperatureHumidity(int port) : d_port(port), d_dht() {}$/;"	f	class:easee::TemperatureHumidity
+TemperatureHumidity	src/temperature_humidity.h	/^class TemperatureHumidity {$/;"	c	namespace:easee
+Text	src/text.cpp	/^Text::Text(const String& content, const Rect& rect,$/;"	f	class:easee::Text
+Text	src/text.h	/^class Text : public Widget {$/;"	c	namespace:easee
+TextStyle	src/textstyle.cpp	/^TextStyle::TextStyle(int fontSize, Color color, Color backgroundColor)$/;"	f	class:easee::TextStyle
+TextStyle	src/textstyle.h	/^class TextStyle {$/;"	c	namespace:easee
+WHITE	src/color.cpp	/^Color Color::WHITE = Color(255, 255, 255);$/;"	m	class:easee::Color	file:
+WHITE	src/color.h	/^    static Color WHITE;$/;"	m	class:easee::Color
+Widget	src/widget.cpp	/^Widget::Widget(const Rect& rect, const Properties& properties)$/;"	f	class:easee::Widget
+Widget	src/widget.h	/^class Widget {$/;"	c	namespace:easee
+WifiData	src/wifimodule.h	/^    struct WifiData {$/;"	s	class:easee::WifiModule
+WifiModule	src/wifimodule.cpp	/^WifiModule::WifiModule() {}$/;"	f	class:easee::WifiModule
+WifiModule	src/wifimodule.h	/^class WifiModule {$/;"	c	namespace:easee
+a	src/color.h	/^    inline float a() const { return d_a; };$/;"	f	class:easee::Color
+availableMemory	src/memory.cpp	/^int availableMemory() {$/;"	f	namespace:__anon1
+b	src/color.h	/^    inline int b() const { return d_b; };$/;"	f	class:easee::Color
+backgroundColor	src/textstyle.h	/^    inline const Color& backgroundColor() const { return d_backgroundColor; };$/;"	f	class:easee::TextStyle
+bgColor	src/display_types.h	/^    inline const Color& bgColor() const { return d_bgColor; }$/;"	f	struct:easee::Properties
+color	src/display_types.h	/^    inline const Color& color() const { return d_color; }$/;"	f	struct:easee::Properties
+color	src/textstyle.h	/^    inline const Color& color() const { return d_color; };$/;"	f	class:easee::TextStyle
+d_a	src/color.h	/^    float d_a;$/;"	m	class:easee::Color
+d_b	src/color.h	/^    int d_b;$/;"	m	class:easee::Color
+d_backgroundColor	src/textstyle.h	/^    Color d_backgroundColor;$/;"	m	class:easee::TextStyle
+d_bgColor	src/display_types.h	/^    Color d_bgColor;$/;"	m	struct:easee::Properties
+d_color	src/display_types.h	/^    Color d_color;$/;"	m	struct:easee::Properties
+d_color	src/textstyle.h	/^    Color d_color;$/;"	m	class:easee::TextStyle
+d_content	src/text.h	/^    String d_content;$/;"	m	class:easee::Text
+d_data	src/provider.h	/^    T d_data;$/;"	m	class:easee::Provider
+d_dht	src/temperature_humidity.h	/^    DHTesp d_dht;$/;"	m	class:easee::TemperatureHumidity
+d_display	src/one_inch_display.h	/^    Adafruit_ST7735 d_display;$/;"	m	class:easee::OneInchDisplay
+d_fontSize	src/textstyle.h	/^    int d_fontSize;$/;"	m	class:easee::TextStyle
+d_g	src/color.h	/^    int d_g;$/;"	m	class:easee::Color
+d_h	src/display_types.h	/^    int d_h;$/;"	m	struct:easee::Rect
+d_humidityCard	src/easee_cell.h	/^    SensorCard<TemperatureHumidity::HumidityData> d_humidityCard;$/;"	m	class:easee::EaseeCell
+d_instance	src/provider.h	/^    static Provider<T>* d_instance;$/;"	m	class:easee::Provider
+d_instance	src/provider.h	/^Provider<T>* Provider<T>::d_instance = nullptr;$/;"	m	class:easee::Provider
+d_invalidated	src/widget.h	/^    bool d_invalidated;$/;"	m	class:easee::Widget
+d_isFirstTime	src/widget.h	/^    bool d_isFirstTime;$/;"	m	class:easee::Widget
+d_label	src/sensor_card.h	/^    String d_label;$/;"	m	class:easee::SensorCard
+d_light	src/easee_cell.h	/^    Light d_light;$/;"	m	class:easee::EaseeCell
+d_lightCard	src/easee_cell.h	/^    SensorCard<Light::LightData> d_lightCard;$/;"	m	class:easee::EaseeCell
+d_memory	src/easee_cell.h	/^    Memory d_memory;$/;"	m	class:easee::EaseeCell
+d_memoryCard	src/easee_cell.h	/^    SensorCard<Memory::MemoryData> d_memoryCard;$/;"	m	class:easee::EaseeCell
+d_oneInchDisplay	src/easee_cell.h	/^    OneInchDisplay d_oneInchDisplay;$/;"	m	class:easee::EaseeCell
+d_padding	src/display_types.h	/^    int d_padding;$/;"	m	struct:easee::Properties
+d_port	src/light.h	/^    int d_port;$/;"	m	class:easee::Light
+d_port	src/temperature_humidity.h	/^    int d_port;$/;"	m	class:easee::TemperatureHumidity
+d_prefix	src/sensor_card.h	/^    String d_prefix;$/;"	m	class:easee::SensorCard
+d_properties	src/widget.h	/^    Properties d_properties;;$/;"	m	class:easee::Widget
+d_r	src/color.h	/^    int d_r;$/;"	m	class:easee::Color
+d_rect	src/widget.h	/^    Rect d_rect;$/;"	m	class:easee::Widget
+d_suffix	src/sensor_card.h	/^    String d_suffix;$/;"	m	class:easee::SensorCard
+d_temperatureCard	src/easee_cell.h	/^    SensorCard<TemperatureHumidity::TemperatureData> d_temperatureCard;$/;"	m	class:easee::EaseeCell
+d_temperatureHumidity	src/easee_cell.h	/^    TemperatureHumidity d_temperatureHumidity;$/;"	m	class:easee::EaseeCell
+d_textSize	src/display_types.h	/^    int d_textSize;$/;"	m	struct:easee::Properties
+d_w	src/display_types.h	/^    int d_w;$/;"	m	struct:easee::Rect
+d_wifiModule	src/easee_cell.h	/^    WifiModule d_wifiModule;$/;"	m	class:easee::EaseeCell
+d_x	src/display_types.h	/^    int d_x;$/;"	m	struct:easee::Rect
+d_y	src/display_types.h	/^    int d_y;$/;"	m	struct:easee::Rect
+data	src/light.h	/^        int data;$/;"	m	struct:easee::Light::LightData
+data	src/memory.h	/^        int data;$/;"	m	struct:easee::Memory::MemoryData
+data	src/temperature_humidity.h	/^        int data;$/;"	m	struct:easee::TemperatureHumidity::HumidityData
+data	src/temperature_humidity.h	/^        int data;$/;"	m	struct:easee::TemperatureHumidity::TemperatureData
+data	src/wifimodule.h	/^        String data;$/;"	m	struct:easee::WifiModule::WifiData
+drawBackground	src/card.cpp	/^void Card::drawBackground(Display& display) {$/;"	f	class:easee::Card
+drawBackground	src/rectangle.cpp	/^void Rectangle::drawBackground(Display& display) {}$/;"	f	class:easee::Rectangle
+drawBackground	src/sensor_card.h	/^void SensorCard<T>::drawBackground(Display& display) {$/;"	f	class:easee::SensorCard
+drawBackground	src/text.cpp	/^void Text::drawBackground(Display& display) {}$/;"	f	class:easee::Text
+drawForeground	src/card.cpp	/^void Card::drawForeground(Display& display) {}$/;"	f	class:easee::Card
+drawForeground	src/rectangle.cpp	/^void Rectangle::drawForeground(Display& display) {$/;"	f	class:easee::Rectangle
+drawForeground	src/sensor_card.h	/^void SensorCard<T>::drawForeground(Display& display) {$/;"	f	class:easee::SensorCard
+drawForeground	src/text.cpp	/^void Text::drawForeground(Display& display) {$/;"	f	class:easee::Text
+easee	src/card.cpp	/^namespace easee {$/;"	n	file:
+easee	src/card.h	/^namespace easee {$/;"	n
+easee	src/color.cpp	/^namespace easee {$/;"	n	file:
+easee	src/color.h	/^namespace easee {$/;"	n
+easee	src/display.cpp	/^namespace easee {$/;"	n	file:
+easee	src/display.h	/^namespace easee {$/;"	n
+easee	src/display_types.cpp	/^namespace easee {}$/;"	n	file:
+easee	src/display_types.h	/^namespace easee {$/;"	n
+easee	src/easee_cell.cpp	/^namespace easee {$/;"	n	file:
+easee	src/easee_cell.h	/^namespace easee {$/;"	n
+easee	src/light.cpp	/^namespace easee {$/;"	n	file:
+easee	src/light.h	/^namespace easee {$/;"	n
+easee	src/memory.cpp	/^namespace easee {$/;"	n	file:
+easee	src/memory.h	/^namespace easee {$/;"	n
+easee	src/one_inch_display.cpp	/^namespace easee {$/;"	n	file:
+easee	src/one_inch_display.h	/^namespace easee {$/;"	n
+easee	src/provider.cpp	/^namespace easee {}  \/\/ namespace easee$/;"	n	file:
+easee	src/provider.h	/^namespace easee {$/;"	n
+easee	src/rectangle.cpp	/^namespace easee {$/;"	n	file:
+easee	src/rectangle.h	/^namespace easee {$/;"	n
+easee	src/sensor_card.cpp	/^namespace easee {$/;"	n	file:
+easee	src/sensor_card.h	/^namespace easee {$/;"	n
+easee	src/temperature_humidity.cpp	/^namespace easee {$/;"	n	file:
+easee	src/temperature_humidity.h	/^namespace easee {$/;"	n
+easee	src/text.cpp	/^namespace easee {$/;"	n	file:
+easee	src/text.h	/^namespace easee {$/;"	n
+easee	src/textstyle.cpp	/^namespace easee {$/;"	n	file:
+easee	src/textstyle.h	/^namespace easee {$/;"	n
+easee	src/widget.cpp	/^namespace easee {$/;"	n	file:
+easee	src/widget.h	/^namespace easee {$/;"	n
+easee	src/wifimodule.cpp	/^namespace easee {$/;"	n	file:
+easee	src/wifimodule.h	/^namespace easee {$/;"	n
+fillRect	src/one_inch_display.cpp	/^void OneInchDisplay::fillRect(const Rect& rect, const Properties& properties) {$/;"	f	class:easee::OneInchDisplay
+fillRoundRect	src/one_inch_display.cpp	/^void OneInchDisplay::fillRoundRect(const Rect& rect,$/;"	f	class:easee::OneInchDisplay
+fillScreen	src/one_inch_display.cpp	/^void OneInchDisplay::fillScreen(const Color& color) {$/;"	f	class:easee::OneInchDisplay
+fontSize	src/textstyle.h	/^    inline int fontSize() const { return d_fontSize; };$/;"	f	class:easee::TextStyle
+g	src/color.h	/^    inline int g() const { return d_g; };$/;"	f	class:easee::Color
+get	src/provider.h	/^    inline const T& get() { return d_data; }$/;"	f	class:easee::Provider
+getColor	src/one_inch_display.cpp	/^int getColor(const easee::Color& color) {$/;"	f	namespace:__anon5
+getData	src/light.cpp	/^Light::LightData Light::getData() {$/;"	f	class:easee::Light
+getData	src/memory.cpp	/^Memory::MemoryData Memory::getData(int t) {$/;"	f	class:easee::Memory
+h	src/display_types.h	/^    inline int h() const { return d_h; }$/;"	f	struct:easee::Rect
+instance	src/provider.h	/^    static Provider* instance() {$/;"	f	class:easee::Provider
+invalidate	src/widget.h	/^    void invalidate() { d_invalidated = true; }$/;"	f	class:easee::Widget
+invalidated	src/widget.h	/^    inline bool invalidated() { return d_invalidated; };$/;"	f	class:easee::Widget
+k_cardHeight	src/easee_cell.cpp	/^const int k_cardHeight = k_displayHeight \/ 2;$/;"	m	namespace:easee::__anon3	file:
+k_cardWidth	src/easee_cell.cpp	/^const int k_cardWidth = k_displayWidth \/ 2;$/;"	m	namespace:easee::__anon3	file:
+k_dataSize	src/sensor_card.h	/^const int k_dataSize = 2;$/;"	m	namespace:__anon2
+k_displayHeight	src/easee_cell.cpp	/^const int k_displayHeight = 128;$/;"	m	namespace:easee::__anon3	file:
+k_displayWidth	src/easee_cell.cpp	/^const int k_displayWidth = 128;$/;"	m	namespace:easee::__anon3	file:
+k_labelHeight	src/sensor_card.h	/^const int k_labelHeight = 7;$/;"	m	namespace:__anon2
+k_labelSize	src/sensor_card.h	/^const int k_labelSize = 1;$/;"	m	namespace:__anon2
+k_margin	src/sensor_card.h	/^const int k_margin = 4;$/;"	m	namespace:__anon2
+loop	src/card.cpp	/^void Card::loop(int t) {}$/;"	f	class:easee::Card
+loop	src/easee_cell.cpp	/^void EaseeCell::loop(int t) {$/;"	f	class:easee::EaseeCell
+loop	src/light.cpp	/^void Light::loop(int t) { Provider<LightData>::instance()->set(getData()); }$/;"	f	class:easee::Light
+loop	src/memory.cpp	/^void Memory::loop(int t) { Provider<MemoryData>::instance()->set(getData(t)); }$/;"	f	class:easee::Memory
+loop	src/one_inch_display.cpp	/^void OneInchDisplay::loop(int t) {}$/;"	f	class:easee::OneInchDisplay
+loop	src/rectangle.cpp	/^void Rectangle::loop(int t) {}$/;"	f	class:easee::Rectangle
+loop	src/sensor_card.h	/^void SensorCard<T>::loop(int t) {}$/;"	f	class:easee::SensorCard
+loop	src/temperature_humidity.cpp	/^void TemperatureHumidity::loop(int t) {$/;"	f	class:easee::TemperatureHumidity
+loop	src/text.cpp	/^void Text::loop(int t) {}$/;"	f	class:easee::Text
+loop	src/widget.h	/^    virtual void loop(int t) {}$/;"	f	class:easee::Widget
+loop	src/wifimodule.cpp	/^void WifiModule::loop(int t) {$/;"	f	class:easee::WifiModule
+operator +	src/display_types.h	/^    friend Rect operator+(const Rect& lhs, const Rect& rhs) {$/;"	f	struct:easee::Rect
+operator ==	src/color.cpp	/^bool operator==(const Color& lhs, const Color& rhs) {$/;"	f	namespace:easee
+padding	src/display_types.h	/^    inline const int& padding() const { return d_padding; }$/;"	f	struct:easee::Properties
+printText	src/one_inch_display.cpp	/^void OneInchDisplay::printText(const String& content, const Rect& rect,$/;"	f	class:easee::OneInchDisplay
+r	src/color.h	/^    inline int r() const { return d_r; };$/;"	f	class:easee::Color
+render	src/widget.cpp	/^void Widget::render(Display& display) {$/;"	f	class:easee::Widget
+set	src/provider.h	/^    void set(const T& data) { d_data = data; }$/;"	f	class:easee::Provider
+setup	src/easee_cell.cpp	/^void EaseeCell::setup() {$/;"	f	class:easee::EaseeCell
+setup	src/light.cpp	/^void Light::setup() { pinMode(d_port, INPUT); }$/;"	f	class:easee::Light
+setup	src/memory.cpp	/^void Memory::setup() {}$/;"	f	class:easee::Memory
+setup	src/one_inch_display.cpp	/^void OneInchDisplay::setup() {$/;"	f	class:easee::OneInchDisplay
+setup	src/sensor_card.h	/^void SensorCard<T>::setup() {$/;"	f	class:easee::SensorCard
+setup	src/temperature_humidity.cpp	/^void TemperatureHumidity::setup() { d_dht.setup(d_port, DHTesp::DHT11); }$/;"	f	class:easee::TemperatureHumidity
+setup	src/wifimodule.cpp	/^void WifiModule::setup() {}$/;"	f	class:easee::WifiModule
+st	src/wifimodule.cpp	/^int st = 0;$/;"	m	namespace:__anon4	file:
+textSize	src/display_types.h	/^    inline const int& textSize() const { return d_textSize; }$/;"	f	struct:easee::Properties
+w	src/display_types.h	/^    inline int w() const { return d_w; }$/;"	f	struct:easee::Rect
+x	src/display_types.h	/^    inline int x() const { return d_x; }$/;"	f	struct:easee::Rect
+y	src/display_types.h	/^    inline int y() const { return d_y; }$/;"	f	struct:easee::Rect
+~Display	src/display.cpp	/^Display::~Display() {}$/;"	f	class:easee::Display
+~Light	src/light.cpp	/^Light::~Light() {}$/;"	f	class:easee::Light
+~Memory	src/memory.cpp	/^Memory::~Memory() {}$/;"	f	class:easee::Memory
+~OneInchDisplay	src/one_inch_display.cpp	/^OneInchDisplay::~OneInchDisplay() {}$/;"	f	class:easee::OneInchDisplay
+~Provider	src/provider.h	/^    ~Provider<T>() {}$/;"	f	class:easee::Provider
+~TemperatureHumidity	src/temperature_humidity.cpp	/^TemperatureHumidity::~TemperatureHumidity() {}$/;"	f	class:easee::TemperatureHumidity
+~Widget	src/widget.cpp	/^Widget::~Widget() {}$/;"	f	class:easee::Widget
